@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#call-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 120px;
+}
+
+.call-card-container {
+    background-color: #3882F6;
+    width: 1050px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 0;
+    gap: 180px;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border: none;
+    padding: 8px 36px;
+    border-radius: 8px;
+    border: 3px white solid;
+}
+
+.sign-up-button,
+#card-body {
+    font-size: 18px;
+}
+
+#card-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+#card-body {
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.sign-up-button,
+#card-title {
+    color: #F9FAF8;
+}
