@@ -8,13 +8,12 @@ body {
 
 .call-card-container {
     background-color: #3882F6;
-    width: 1050px;
+    max-width: 950px;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 55px 0;
-    gap: 180px;
+    padding: 55px 80px;
     margin: 90px auto;
 }
 
