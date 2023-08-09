@@ -6,13 +6,6 @@ body {
     margin: 0;
 }
 
-#call-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 90px 120px;
-}
-
 .call-card-container {
     background-color: #3882F6;
     width: 1050px;
@@ -22,6 +15,7 @@ body {
     align-items: center;
     padding: 55px 0;
     gap: 180px;
+    margin: 90px auto;
 }
 
 .sign-up-button {
