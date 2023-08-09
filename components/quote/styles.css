@@ -10,6 +10,7 @@ body {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding: 100px 0;
     margin: 0 auto;
 }
@@ -26,10 +27,11 @@ body {
     justify-content: flex-end;
     font-weight: 900;
     font-size: 28px;
+    width: 100%;
 }
 
 .quote-text,
 .quote-author {
-    width: 880px;
+    max-width: 880px;
     margin: 0 auto;
 }
